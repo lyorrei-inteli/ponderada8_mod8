@@ -25,6 +25,7 @@ A aplicação opera em linha de comando e aceita como argumento o caminho de um 
 
 ### Considerações importantes
 Caso o script não funcione, tente instalar o `ffmpeg` no seu sistema.
+
 Se der erro na função `text_to_speech`, mude a última linha da função text_to_speech para `os.system(f"start {audio_file}")`. Isso será necessário caso você esteja utilizando Windows.
 
 ## Explicação do Código com Trechos Relevantes
