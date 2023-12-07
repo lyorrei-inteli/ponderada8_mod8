@@ -23,6 +23,10 @@ A aplicação opera em linha de comando e aceita como argumento o caminho de um 
    python main.py [caminho do arquivo de áudio]
    ```
 
+### Considerações importantes
+Caso o script não funcione, tente instalar o `ffmpeg` no seu sistema.
+Se der erro na função `text_to_speech`, mude a última linha da função text_to_speech para `os.system(f"start {audio_file}")`. Isso será necessário caso você esteja utilizando Windows.
+
 ## Explicação do Código com Trechos Relevantes
 
 ### `convert_audio_to_wav(audio_path)`
@@ -69,7 +73,7 @@ A aplicação opera em linha de comando e aceita como argumento o caminho de um 
   ```
 
 ### `text_to_speech(text, lang='en')`
-- **Propósito**: Converte texto em áudio.
+- **Propósito**: Converte texto em áudio (mude a última linha para `os.system(f"start {audio_file}")` se estiver usando Windows).
 - **Trecho de Código**:
   ```python
   def text_to_speech(text, lang='en'):
