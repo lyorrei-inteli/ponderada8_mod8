@@ -98,3 +98,4 @@ A aplicação opera em linha de comando e aceita como argumento o caminho de um 
 
 ## Demonstração
 Uma demonstração do funcionamento da aplicação pode ser vista no vídeo disponível no repositório. Este vídeo mostra o processo completo, desde a entrada do arquivo de áudio até a reprodução do áudio traduzido.
+https://youtu.be/0nDeQgvMsqQ
