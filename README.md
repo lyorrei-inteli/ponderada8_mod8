@@ -23,6 +23,10 @@ A aplicação opera em linha de comando e aceita como argumento o caminho de um 
    python main.py [caminho do arquivo de áudio]
    ```
 
+   ex:
+   ```
+   python main.py audio.m4a
+   ```
 ### Considerações importantes
 Caso o script não funcione, tente instalar o `ffmpeg` no seu sistema.
 
